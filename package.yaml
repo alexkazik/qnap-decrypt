@@ -29,3 +29,18 @@ dependencies:
 
 library:
   source-dirs: src
+
+tests:
+  qnap-decrypt-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+    - qnap-decrypt
+    - filepath >= 1.4.1.2
+    - hspec >= 2.4.8
+    - HUnit >= 1.6.0.0
+    - temporary >= 1.2.1.1
+
+data-files:
+- test/encrypted/*
+- test/reference/*

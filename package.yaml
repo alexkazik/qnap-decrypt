@@ -1,5 +1,5 @@
 name:                qnap-decrypt
-version:             0.0.0
+version:             0.3.0
 github:              "alexkazik/qnap-decrypt"
 license:             BSD3
 author:              "ALeX Kazik"
@@ -11,6 +11,7 @@ category:            Cryptography
 
 extra-source-files:
 - README.md
+- ChangeLog.md
 
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is

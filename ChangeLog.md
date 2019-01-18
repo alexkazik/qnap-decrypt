@@ -1,5 +1,9 @@
 # Changelog for qnap-decrypt
 
+## 0.3.4 -- 2019-01-18
+
+* Support for hspec 2.7
+
 ## 0.3.3 -- 2018-11-21
 
 * Support for hspec 2.6
